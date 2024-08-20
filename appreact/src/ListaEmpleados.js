@@ -19,7 +19,7 @@ function ListaEmpleados() {
   const listEmployee = async () => {
     const datosback = await axios.get(urlApi);
     console.log(datosback.data);
-    console.log("Empleados cargados");
+    console.log("Empleados cargadosx");
     setEmpleados(datosback.data);
 
   }
